@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Path to Success: Achieving Your Photography Career Dreams</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background: #f5f5f5;
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .page {
+            display: none;
+            background: white;
+            border-radius: 10px;
+            padding: 40px;
+            margin: 20px 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .page.active {
+            display: block;
+            animation: fadeIn 0.5s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        nav {
+            background: white;
+            border-radius: 25px;
+            padding: 15px;
+            margin-bottom: 30px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            color: #666;
+            text-decoration: none;
+            margin: 0 20px;
+            padding: 10px 25px;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+            display: inline-block;
+            font-weight: 500;
+        }
+
+        nav a:hover, nav a.active {
+            background: #333;
+            color: white;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+
+        h2 {
+            color: #555;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: #666;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        p {
+            margin-bottom: 20px;
+            font-size: 1.1em;
+            text-align: justify;
+        }
+
+        .intro-section {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .career-img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 15px;
+            margin: 20px auto;
+            display: block;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .career-img:hover {
+            transform: scale(1.05);
+        }
+
+        ol {
+            background: #f8f8f8;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 4px solid #333;
+        }
+
+        ol li {
+            margin-bottom: 15px;
+            font-size: 1.1em;
+            padding: 10px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        th {
+            background: #333;
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        tr:hover {
+            background: #f8f9ff;
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #666;
+            text-decoration: underline;
+        }
+
+        .highlight-box {
+            background: #f8f8f8;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 4px solid #333;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #666;
+            font-style: italic;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .page {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            nav a {
+                margin: 5px;
+                padding: 8px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="#" onclick="showPage('home')" class="nav-link active">Home</a>
+            <a href="#" onclick="showPage('steps')" class="nav-link">Step-by-Step Guide</a>
+            <a href="#" onclick="showPage('inspiration')" class="nav-link">Inspiration & Resources</a>
+        </nav>
+
+        <!-- Homepage -->
+        <div id="home" class="page active">
+            <h1>The Path to Success: Achieving Your Career Dreams</h1>
+            
+            <div class="intro-section">
+                <img src="C:\Users\ASUS\Desktop\web design sem 4\seorang.jpg" alt="Photography Career" class="career-img">
+            </div>
+
+            <h2>My Dream Career: Professional Photographer</h2>
+            
+            <p>Welcome to my journey towards becoming a successful professional photographer! Photography is more than just capturing images – it's about telling stories, preserving memories, and creating art that speaks to people's hearts. As a photographer, I aspire to capture the beauty of the world and share it through my unique perspective.</p>
+
+            <div class="highlight-box">
+                <h3>Why Photography?</h3>
+                <p>Photography allows me to combine creativity with technical skills, freezing moments in time that tell powerful stories. It offers the opportunity to explore different styles, from portrait and wedding photography to landscape and commercial work.</p>
+            </div>
+
+            <p>The field of photography encompasses many specializations including portrait photography, wedding photography, landscape photography, commercial photography, and photojournalism. My goal is to develop expertise in multiple areas while finding my unique artistic voice and style.</p>
+
+            <p>This website outlines my strategic plan to achieve my photography career dreams, including the step-by-step guide I'll follow and the inspiring photographers who motivate me in this creative journey. Let's explore the exciting path ahead!</p>
+        </div>
+
+        <!-- Second Page: Step by Step Guide -->
+        <div id="steps" class="page">
+            <h1>Step-by-Step Guide to Success</h1>
+            
+            <h2>My Roadmap to Becoming a Professional Photographer</h2>
+            
+            <p>Achieving success in photography requires dedication, practice, and continuous learning. Here's my comprehensive plan to reach my photography career goals:</p>
+
+            <ol>
+                <li><strong>Master Camera Basics:</strong> Learn fundamental photography concepts including aperture, shutter speed, ISO, composition rules, and lighting techniques.</li>
+                
+                <li><strong>Choose Your Equipment:</strong> Invest in a good camera, essential lenses, and basic accessories like tripods and external flash units.</li>
+                
+                <li><strong>Study Photography Theory:</strong> Learn about composition, color theory, lighting patterns, and different photography styles and genres.</li>
+                
+                <li><strong>Practice Daily:</strong> Take photos every day to improve technical skills and develop your unique artistic vision and style.</li>
+                
+                <li><strong>Build a Strong Portfolio:</strong> Create a diverse collection of your best work showcasing different photography styles and subjects.</li>
+                
+                <li><strong>Learn Photo Editing:</strong> Master editing software like Adobe Lightroom and Photoshop to enhance and perfect your images.</li>
+                
+                <li><strong>Get Formal Training:</strong> Consider photography courses, workshops, or a degree in photography or visual arts to strengthen your foundation.</li>
+                
+                <li><strong>Gain Experience:</strong> Work as an assistant to established photographers, do internships, or take on small projects to gain real-world experience.</li>
+                
+                <li><strong>Network and Market:</strong> Build relationships with other photographers, potential clients, and create an online presence through social media and websites.</li>
+                
+                <li><strong>Launch Your Business:</strong> Start your photography business, set competitive rates, and establish yourself in your chosen photography niche.</li>
+            </ol>
+
+            <div class="highlight-box">
+                <h3>Success Tip</h3>
+                <p>Remember, great photography comes from practice and patience. Every professional photographer started as a beginner – consistency and passion will lead you to success!</p>
+            </div>
+        </div>
+
+        <!-- Third Page: Inspiration & Resources -->
+        <div id="inspiration" class="page">
+            <h1>Inspiration & Resources</h1>
+            
+            <h2>Influential Figures in Photography</h2>
+            
+            <p>Learning from legendary photographers and contemporary masters provides valuable insights and inspiration. Here are some influential figures who have shaped the photography world:</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Specialty</th>
+                        <th>Famous Work</th>
+                        <th>Learn More</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ansel Adams</td>
+                        <td>Landscape Photography</td>
+                        <td>Black and white nature photography</td>
+                        <td><a href="https://www.anseladams.com/" target="_blank">Official Website</a></td>
+                    </tr>
+                    <tr>
+                        <td>Annie Leibovitz</td>
+                        <td>Portrait Photography</td>
+                        <td>Celebrity and fashion portraits</td>
+                        <td><a href="https://www.vanityfair.com/contributor/annie-leibovitz" target="_blank">Portfolio</a></td>
+                    </tr>
+                    <tr>
+                        <td>Henri Cartier-Bresson</td>
+                        <td>Street Photography</td>
+                        <td>Candid street photography</td>
+                        <td><a href="https://www.henricartierbresson.org/" target="_blank">Foundation</a></td>
+                    </tr>
+                    <tr>
+                        <td>Steve McCurry</td>
+                        <td>Travel Photography</td>
+                        <td>"Afghan Girl" National Geographic</td>
+                        <td><a href="https://stevemccurry.com/" target="_blank">Official Website</a></td>
+                    </tr>
+                    <tr>
+                        <td>Jimmy Chin</td>
+                        <td>Adventure Photography</td>
+                        <td>Extreme sports and climbing</td>
+                        <td><a href="https://www.jimmychin.com/" target="_blank">Portfolio</a></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>Useful Resources for Learning Photography</h2>
+            
+            <div class="highlight-box">
+                <h3>Essential Learning Platforms</h3>
+                <p>Here are some valuable resources to accelerate your photography journey:</p>
+                <ul style="margin-top: 15px;">
+                    <li><a href="https://www.youtube.com/user/DigitalRevCom" target="_blank">Digital Rev TV</a> - Photography tutorials and gear reviews</li>
+                    <li><a href="https://www.petapixel.com/" target="_blank">PetaPixel</a> - Photography news, tutorials, and inspiration</li>
+                    <li><a href="https://www.dpreview.com/" target="_blank">DPReview</a> - Camera reviews and photography techniques</li>
+                    <li><a href="https://500px.com/" target="_blank">500px</a> - Photography community and portfolio platform</li>
+                </ul>
+            </div>
+
+            <p>These inspiring photographers have captured some of the most iconic images in history. Their dedication to their craft, unique perspectives, and technical mastery continue to influence photographers worldwide. By studying their techniques and following their principles, we can learn valuable lessons about composition, storytelling, and the art of seeing in our own photography journey.</p>
+        </div>
+
+        <div class="footer">
+            <p>✨ The journey of a thousand miles begins with a single step ✨</p>
+        </div>
+    </div>
+
+    <script>
+        function showPage(pageId) {
+            // Hide all pages
+            const pages = document.querySelectorAll('.page');
+            pages.forEach(page => page.classList.remove('active'));
+            
+            // Show selected page
+            document.getElementById(pageId).classList.add('active');
+            
+            // Update navigation
+            const navLinks = document.querySelectorAll('.nav-link');
+            navLinks.forEach(link => link.classList.remove('active'));
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>
